@@ -1,0 +1,30 @@
+#version 330 core
+layout(location = 0) in vec3 aPos;
+layout(location = 1) in vec3 aNormal;
+layout(location = 2) in vec3 aColor;
+layout(location = 3) in vec2 aUV;
+
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+uniform vec3 viewPos;
+
+out vec3 fragPos;
+out vec3 fragNormal;
+out vec3 fragColor;
+out vec2 fragUV;
+
+void main() {
+    vec4 worldPos = model * vec4(aPos, 1.0);
+    fragPos = worldPos.xyz;
+    fragNormal = mat3(transpose(inverse(model))) * aNormal;
+    fragColor = aColor;
+    fragUV = aUV;
+
+    // World curvature — push distant objects downward
+    float dist = length(worldPos.xz - viewPos.xz);
+    float curvature = 0.0008;
+    worldPos.y -= curvature * dist * dist;
+
+    gl_Position = projection * view * worldPos;
+}

@@ -1,0 +1,96 @@
+# Blender MTL File: 'Ford.blend'
+# Material Count: 8
+
+newmtl Back_light
+Ns 757.037018
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.000670
+Ks 0.500000 0.500000 0.500000
+Ke 16.099998 0.000000 0.050610
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Body
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.1 0.1 0.1
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.000000 C:\\Users\\Ali Tahir\\Downloads\\metallic_blue-1K\\metallic_blue-1K\\1K-Metallic Blue_Normal.jpg
+map_Kd D:\\Cars\\R35\\textures\\red.jpg
+map_Ns D:\\Cars\\R35\\textures\\Black.jpg
+refl C:\\Users\\Ali Tahir\\Downloads\\metallic_blue-1K\\metallic_blue-1K\\1K-Metallic Blue_Metallic.jpg
+
+newmtl Glass
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.644307 0.619080 0.549914
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 2.000000
+d 1.000000
+illum 3
+map_Bump -bm 0.100000 D:\\Cars\\Porsche\\assets\\materials\\glass_7f58b3bb-1b8f-4623-a44b-ad49f509ead9\\textures_2k\\garage_floor_nor_gl_4k.jpg
+
+newmtl Grill
+Ns 134.059771
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali Tahir\\Downloads\\the-speaker-grill-2184439_960_720.jpg
+
+newmtl Light
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 1.000000 1.000000 1.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Screens
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\Cars\\R35\\textures\\Screens.jpg
+map_Ns D:\\Cars\\R35\\textures\\gold_roughness.jpg
+refl D:\\Cars\\R35\\textures\\gold_metalness.jpg
+
+newmtl Tyre
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\Cars\\R35\\textures\\tyre.jpg
+refl D:\\Cars\\R35\\textures\\gold_roughness.jpg
+
+newmtl Wheels
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\Cars\\R35\\textures\\Rims.jpg
+map_Ns D:\\Cars\\R35\\textures\\gold_roughness.jpg
+refl D:\\Cars\\R35\\textures\\gold_metalness.jpg
